@@ -1,8 +1,7 @@
 const receivesAFunction = (callback) => callback();
 
 const returnsANamedFunction = () => {
-  function fn() {}
-  return fn;
+  return function fn() {};
 };
 
 const returnsAnAnonymousFunction = () => {
